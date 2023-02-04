@@ -58,7 +58,7 @@ button {
     font-weight: bold;
 }
 
-.custom-operator:focus {
+.custom-operator:active {
     background-color: lightseagreen;
 }
 
