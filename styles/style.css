@@ -53,6 +53,15 @@ button {
     grid-column: span 2;
 }
 
+.custom-operator {
+    background-color: seagreen;
+    font-weight: bold;
+}
+
+.custom-operator:focus {
+    background-color: lightseagreen;
+}
+
 .operator {
     background-color: #FF8F1F;    
 }
