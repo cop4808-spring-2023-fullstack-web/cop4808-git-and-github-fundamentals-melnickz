@@ -16,7 +16,7 @@ html {
 
 #container {
     background-color: black;
-    border: 10px solid rgba(47,47,47,1);
+    border: 10px solid rgba(47, 47, 47, 1);
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
@@ -48,22 +48,12 @@ button {
     color: black;
 }
 
-
 #zero {
     grid-column: span 2;
 }
 
-.custom-operator {
-    background-color: seagreen;
-    font-weight: bold;
-}
-
-.custom-operator:active {
-    background-color: lightseagreen;
-}
-
 .operator {
-    background-color: #FF8F1F;    
+    background-color: #ff8f1f;
 }
 
 .operator:focus {
@@ -71,7 +61,7 @@ button {
 }
 
 .equals {
-    background-color: #FF8F1F;
+    background-color: #ff8f1f;
 }
 
 .equals:active {
@@ -79,7 +69,7 @@ button {
 }
 
 .operand {
-    background-color: #217C7E;
+    background-color: #217c7e;
 }
 
 .operand:active {
@@ -87,7 +77,7 @@ button {
 }
 
 .decimal {
-    background-color: #217C7E;
+    background-color: #217c7e;
 }
 
 .decimal:active {
@@ -116,4 +106,13 @@ button {
 
 .percent:active {
     background-color: rgb(123, 189, 255);
+}
+
+.custom-operator { /* custom css class for new buttons */
+    background-color: seagreen; 
+    font-weight: bold; /* makes button font bold */
+}
+
+.custom-operator:active { /* button looks light green when clicked */
+    background-color: lightseagreen;
 }
