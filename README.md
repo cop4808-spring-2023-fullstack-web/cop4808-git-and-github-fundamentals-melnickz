@@ -12,3 +12,4 @@ In addition to the functions implemented by "mrbuddh4", this calculator supports
 
 ## Video Walkthrough 
 Here is a gif showing the upgraded calculator in action:
+![](https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-melnickz/demo.gif)
